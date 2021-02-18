@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/uikit.min.css" />
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+</head>
+<body>
+
+<div class="uk-height-large uk-background-cover uk-light uk-flex" uk-parallax="bgy: -200" style="background-image: url(img/black_img2.jpg); height: 960px">
+
+    <div class="uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical">
+        <h1>Search Movies</h1>
+        <p class="search">
+            <input type="text" class="uk-input uk-form-width-medium" placeholder="Search" id="input-search">
+            <button type="button" class="uk-button uk-button-default" id="btn" onclick="btn()">Search</button>
+            <button type="button" class="uk-button uk-button-default" id="btn2" onclick="btn2()">Focus</button>
+        </p>
+    </div>
+
+</div>
+
+<div id="myId" class="listId"></div>
+
+<script src="java.js"></script>
+</body>
+</html>
